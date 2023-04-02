@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Demo4 {
     public static void main(String[] args) {
-        System.out.println(letterCombinations("234"));
+        System.out.println(etterCombinations("234"));
     }
     static final Map<Character,String> map=new HashMap<Character,String>(){{
         put('2',"abc");
@@ -17,7 +17,7 @@ public class Demo4 {
         put('8',"tuv");
         put('9',"wxyz");
     }};
-    public static List<String> letterCombinations(String digits) {
+    public static List<String> etterCombinations(String digits) {
         List<String> result=new ArrayList<>();
         if(digits==null ||digits.length()==0) return result;
         addString(result,digits,0,new StringBuffer());
