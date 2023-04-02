@@ -6,7 +6,7 @@ public class Demo3 {
     public static void main(String[] args) {
 
     }
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSumAvg(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> result=new ArrayList<>();
         if(nums.length==0) return result;
