@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Demo3 {
     public static void main(String[] args) {
-
+        threeSumAvg(new int[]{1,2,3,4,5});
     }
     public static List<List<Integer>> threeSumAvg(int[] nums) {
         Arrays.sort(nums);
